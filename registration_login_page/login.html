@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h2 class="first-line">Welcome back!</h2>
+    <form action="success-page.html" method="post">
+      <div class="container">
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required />
+
+        <label for="psw"><b>Password</b></label>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          name="psw"
+          required
+        />
+        <button type="submit" class="login-btn">Login</button>
+        <div class="has-account">
+          <span>Don't have an account yet?</span>
+          <a href="index.html">Signup</a>
+          <div class="forgot-pass">
+            <span>Forgot password? Click</span>
+            <a href="#">here</a>
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

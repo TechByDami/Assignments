@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <form action="success-page.html" method="post">
+        <div class="container">
+
+            <h1 class="first-line">Want to register your account?</h1>
+
+            <hr>
+            <label> <b>Firstname</b> </label>
+            <input type="text" name="firstname" placeholder="Firstname" size="15" required />
+            <label> <b>Middlename: </b></label>
+            <input type="text" name="middlename" placeholder="Middlename" size="15" required />
+            <label> <b>Lastname:</b> </label>
+            <input type="text" name="lastname" placeholder="Lastname" size="15" required />
+            <div>
+                <label>
+                    <b>Date of birth:</b>
+                </label>
+                <input type="date" name="dob" id="dob" required>
+            </div>
+            <div>
+                <label>
+                    <b> Favourite color:</b>
+                </label><br>
+~/website-pages$ ls
+index.html  login.html  replit.nix  script.js  style.css  success-page.html
+~/website-pages$ cat index.html 
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <form action="success-page.html" method="post">
+        <div class="container">
+
+            <h1 class="first-line">Want to register your account?</h1>
+
+            <hr>
+            <label> <b>Firstname</b> </label>
+            <input type="text" name="firstname" placeholder="Firstname" size="15" required />
+            <label> <b>Middlename: </b></label>
+            <input type="text" name="middlename" placeholder="Middlename" size="15" required />
+            <label> <b>Lastname:</b> </label>
+            <input type="text" name="lastname" placeholder="Lastname" size="15" required />
+            <div>
+                <label>
+                    <b>Date of birth:</b>
+                </label>
+                <input type="date" name="dob" id="dob" required>
+            </div>
+            <div>
+                <label>
+                    <b> Favourite color:</b>
+                </label><br>
+                <input type="color" name="color" id="">
+            </div>
+            <div>
+                <label>
+                    <b>Gender :</b>
+                </label><br>
+                <input type="radio" value="Male" name="gender" checked> Male
+                <input type="radio" value="Female" name="gender"> Female
+                <input type="radio" value="Other" name="gender"> Other
+
+            </div>
+            <label>
+                <b>Phone :</b>
+            </label>
+            <input type="text" name="phone" placeholder="phone no." size="11" required>
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <label for="psw-repeat"><b>Re-type Password</b></label>
+            <input type="password" placeholder="Retype Password" name="psw-repeat" required>
+            <p class="terms">
+                <input id="tac-check" type="checkbox" name="checkbox" required>
+                <label for="tac-check"><a href="#" style="font-size: 12px;">I HAVE READ AND AGREE TO THE TERMS AND
+                        CONDITIONS</a></label>
+            </p>
+
+            <button type="submit" class="register-btn">Register</button>
+            <div class="has-account">
+                <span>Already got an account?</span>
+                <a href="login.html">Login here</a>
+            </div>
+    </form>
+</body>
+
+</html>
